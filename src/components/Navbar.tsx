@@ -22,7 +22,7 @@ const Navbar = () => {
           href="#home"
           className="site-wordmark shrink-0 border border-white text-[9px] text-white sm:text-[10px] md:text-[11px]"
         >
-          Blessed By Jesus
+          Blessed
         </a>
 
         <div className="hidden items-center gap-10 md:flex">

@@ -1,5 +1,13 @@
+/**
+ * Hero deck lead image: stock photo licensed for commercial use under the Unsplash License.
+ * Photo: Michael DeMoya — https://unsplash.com/photos/Q82AM6BWBPM
+ * License: https://unsplash.com/license
+ */
+const UNSPLASH_HERO_BARBER =
+  "https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&fit=crop&w=1200&q=80" as const;
+
 export const GALLERY_IMAGES = [
-  "/gallery/book-now-hero.png",
+  UNSPLASH_HERO_BARBER,
   "/gallery/cut2.jpg",
   "/gallery/77347d60d5a8402bae56e2df6dc095-blessed-by-jesus-dallas-barber-biz-photo-724b8a87494c40ec8f4a879dcf1c78-booksy.jpeg",
   "/gallery/311234db91b64d57b6a1e1411df282-blessed-by-jesus-dallas-barber-biz-photo-e41177222028416aa660f9a42c63d0-booksy.jpeg",
